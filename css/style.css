@@ -1,0 +1,466 @@
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.background-top {
+    background: url(../img/back-top.png) 0 0/100% auto no-repeat;
+    background-color: rgb(33, 6, 42, 0.9);
+}
+
+.button {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 55px;
+    background: #5A0D67;
+}
+
+.button:hover {
+    color: #5A0D67;
+    background-color: #fff;
+    border: 1px solid #5A0D67;
+}
+
+.title {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #21062A;
+    position: relative;
+}
+
+.title span {
+    display: inline-block;
+    width: 80px;
+    height: 3px;
+    background-color: #21062A;
+    position: absolute;
+    left: 221px;
+    top: 27px;
+}
+
+
+/* Header start */
+.header__inner {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__number {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Header-end */
+/* ================================================= */
+/* section cars-start */
+.cars__title {
+    padding-top: 105px;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cars__subtitle {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cars__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+
+.cars__icons {
+    padding: 70px 0 119px 67px;
+}
+
+.cars__icons img {
+    width: 26px;
+    margin-top: auto;
+    height: 26px;
+}
+
+.cars__icons a:not(:last-child) {
+    padding-right: 10px;
+}
+
+.cars__image {
+    position: absolute;
+    top: 438px;
+    right: 0;
+}
+
+/* section cars end */
+/* ================================== */
+/* section services start */
+
+.services {
+    margin: 310px 100px 100px 0;
+}
+
+.services__inner {
+    display: flex;
+    padding-top: 50px;
+}
+
+.services-text {
+    max-width: 600px;
+}
+
+.services-text__title {
+    font-weight: 300;
+    font-size: 18px;
+    color: #5A0D67;
+}
+
+.services-text__paragraphs {
+    font-weight: 300;
+    font-size: 18px;
+    color: #2C2B2B;
+    padding-right: 96px;
+}
+
+.services-text__title_padding {
+    padding-top: 70px;
+}
+
+.services-text__button {
+    margin-top: 50px;
+    position: relative;
+}
+
+.services-text__decor {
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    position: absolute;
+    left: 341px;
+    top: 4px;
+}
+
+.services-text__button span {
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    background-color: #C4C4C4;
+    position: absolute;
+    left: 248px;
+    top: 14px;
+}
+
+.services-buttons__item {
+    width: 450px;
+    height: 68px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.services-buttons__item:hover {
+    width: 500px;
+    border: 2px solid #5A0D67;
+    color: #5A0D67;
+}
+
+
+.services-buttons__item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.services-buttons__number {
+    padding-top: 30px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+}
+
+.services-buttons__item:hover .services-buttons__number {
+    color: #5A0D67;
+}
+
+.services-buttons__text {
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-buttons__title {
+    font-weight: 300;
+    font-size: 24px;
+    color: #2C2B2B;
+}
+
+.services-buttons__item:hover .services-buttons__title {
+    color: #5A0D67;
+}
+
+.services-buttons__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    color: #2C2B2B;
+}
+
+/* section services end */
+/* ============================================================= */
+/* section about start */
+.about {
+    margin-top: 100px;
+}
+
+.about-title {
+    padding-left: 185px;
+
+}
+
+.about-title span {
+    left: 396px;
+    top: 27px;
+}
+
+.about-inner {
+    display: flex;
+}
+
+.about-inner__img {
+    padding-right: 95px;
+}
+
+.about-text {
+    margin-top: 50px;
+    background: #21062A;
+}
+
+.about-text__item {
+    padding-left: 185px;
+}
+
+.about-text__title {
+    padding-top: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about-text__subtitle {
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.about-text__descr {
+    max-width: 316px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #C4C4C4;
+}
+
+.about-text__descr_padding {
+    margin-right: 248px;
+    padding-bottom: 45px;
+}
+
+/* section about end */
+/* ======================================= */
+/* section fitted cars start */
+.fitted-cars {
+    margin-top: 100px;
+}
+
+.fitted-cars-title span {
+    left: 375px;
+}
+
+.fitted-cars__slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fitted-cars__item {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+
+}
+.fitted-cars__item:hover{
+    background-color: #5A0D67;
+}
+.fitted-cars__item:hover figcaption{
+    color: #fff;
+}
+
+.fitted-cars__item img {
+    padding: 6px 6px 0 6px;
+}
+
+.fitted-cars__item figcaption {
+    text-align: center;
+    padding: 23px 0 11px 0;
+    font-weight: 300;
+    font-size: 18px;
+    color: #2C2B2B;
+}
+
+/* slick start */
+.fitted-cars__slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fitted-cars__slider .slick-dots li {
+    margin: 0 10px;
+}
+
+.fitted-cars__slider .slick-dots li.slick-active button {
+    width: 50px;
+    height: 3px;
+    background-color: #5A0D67;
+}
+
+.fitted-cars__slider .slick-dots button {
+    font-size: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #C4C4C4;
+}
+/* slick end */
+/* ============================================ */
+/* section fitted-cars end */
+/* =============================================================== */
+/* section contacts start */
+
+.contacts {
+    padding-top: 100px;
+}
+
+.contacts__inner {
+    display: flex;
+}
+
+.contacts-title {
+    padding: 50px 0;
+}
+
+.contacts-title span {
+    top: 76px;
+    left: 160px;
+}
+
+.contacts-adress__title {
+    font-weight: 300;
+    font-size: 18px;
+    color: #5A0D67;
+}
+
+.contacts-adress__item:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.contacts-adress__item:last-child {
+    padding-bottom: 56px;
+}
+
+.contacts-adress__text {
+    font-weight: 300;
+    font-size: 18px;
+    color: #2C2B2B;
+}
+
+.form-title {
+    color: #fff;
+    padding: 50px 0 16px 128px;
+}
+
+.form-title span {
+    background-color: #fff;
+    top: 76px;
+    left: 395px;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 426px;
+    background: #21062A;
+    padding: 0;
+}
+
+.contacts-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-form input {
+    width: 450px;
+    height: 75px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    background-color: #C4C4C400;
+    font-weight: 300;
+    font-size: 18px;
+    color: #C4C4C4;
+    margin: 0 75px;
+}
+
+.contacts-form input:nth-child(1) {
+    margin-bottom: 12px;
+}
+
+.contacts-button {
+    margin: 78px 0 56px 0;
+    align-self: center;
+    padding: 15px 72px;
+}
+/* section contacts end */
+/* ========================================================= */
+/* footer-start */
+.footer {
+    background: #21062A;
+}
+
+.footer__inner {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__icons img:not(:last-child) {
+    padding-right: 10px;
+}
+
+.footer__text {
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+}

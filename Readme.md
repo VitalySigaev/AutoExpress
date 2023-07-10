@@ -11,5 +11,7 @@
 
 2. В проекте используется Slider - Slick.
 
+3. Без адаптива. 
+
 ## Ссылки проекта
 Ссылка на проект для просмотра - https://VitalyFront.github.io/AutoExpress/

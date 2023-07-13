@@ -14,4 +14,4 @@
 3. Без адаптива. 
 
 ## Ссылки проекта
-Ссылка на проект для просмотра - https://VitalyFront.github.io/AutoExpress/
+Ссылка на проект для просмотра - https://vitalysigaev.github.io/AutoExpress/
